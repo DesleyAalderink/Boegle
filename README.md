@@ -153,6 +153,40 @@ Emiel came up with the storyboard and he made sure to get us a studio.
 My job at the studio?
 Push Victor on a trolly so the camera will be smooth and the transisition will be more steady.
 
+## Did I achieve my learning curves?
+
+* I want to understand and implement ES6 into the project
+  - I did!
+    I didn't really did much JavaScript, but what I did, I did with ES6! I was tricky at the start, but the more
+    I used it, the more natural it felt. The team was also very supportive!
+ 
+* I want to dive into build tools and implement this knowledge into the project.
+  - I did!
+    I did research to the building tools and even implemented the tools into our setup! I was scared at first, but in the end it
+    all worked out. I will keep using building tools for personal projects.
+ 
+* I want to expand my JavaScript knowledge in the Front End and write more JavScript
+  - I kinda did?
+    I didn't really use a lot of JavaScript for the things I did. That can be seen a learning curve itself. The things I learned from       teammates is something I implemented into my code.
+
+* I want to learn how to use GitHub in a team structure
+   - I did!
+     Before I really didn't know how to use Git/GitHub, but thanks to Danny and the team I managed how to use it! I can now dream of all      the git commands. Github is a gift of god.
+     
+## Conclusion
+It was a really fun and learnful ride. The team was amazing and I had a lot of fun. I learned some new tricks from the team as well as on my own. I'm really happy with the result we have produced in just a few weeks.
+     
+## Special thanks
+To all the teachers who gave me feedback and good tips and tricks. I know I didn't go in full detail about it, but I appreciate it alot.
+
+Also special thanks to our mentor Danny. He gave us GREAT tips and helped us out whenever we needed to. We had a lot of fun with him.
+
+Mark Vos and OBA must not be forgotten, ofcourse. Its thanks to them that I'm even writing this readme. They were very friendly and really supportive to us.
+
+And last but not least: The whole team of Boogle. I had a great and fun time and I will miss them and the project. I will remember this project as my favourite school project. 
+
+
+
 # Working in a team - Boegle
 Amsterdam OBA | To search a book
 ![A demo of the OBA searchbook](readme_assets/application-introduction-v1.gif)

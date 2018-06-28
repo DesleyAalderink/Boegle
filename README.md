@@ -122,6 +122,27 @@ to important.
 In week 4 we did the tests. The test were done with children from the Cartesius school. We tested on 3 boys and 2 girls. The tests were
 absolutely something we needed. We got a lot of new insights (more information in the teamreadme) and we had some stuff we needed to fix.
 
+- Doelgroep = Jeugd of none (wegens fout API)
+- Slider
+     - Krijgt mousedown (voor constante feedback)
+     - Min = 50 of minder
+     - Max = 500 of meer
+     - Begint met animatie
+     - Moet meer opvallen
+- Titel, auteur en taal overruled een hoop
+- Form vragen moeten "vragender"
+- Placeholder moet òf meer placeholder-achtig òf verdwijnen na :focus
+- Knoppen onderin moeten een animatie krijgen
+- Kleur van de tekst moet veranderen als de kleur van de kaft verandert
+- Resultatenknop
+     - Font-weight moet hoger
+     - background-color moet worden verandert
+     - moet meer opvallen
+     - animeren na het kunnen tonen van resultaten
+- Cutsom Select moet scrollen na het openen om de mogelijk tot scrollen te verduidelijken
+- State 4 naar 2 na gebruik slider gaat kapot door het verkeerd verwijderen van class "none"
+- Er moet een terugknop komen op de resultaten- en detailpagina
+
 ## Scroll button
 One of the feedback points was that the kids didn't knew they could scroll down the detail page. Victor came up with the design for a scroll down button. I made this real in code. The scroll button is sticky'd to the floor, so it will always be displayed at the bottom in a bouncy animation when you first land on the page.
 

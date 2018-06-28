@@ -1,4 +1,157 @@
-# Boegle
+# Desley in Boegle | What did I do?
+
+## Week 1
+
+This will be a readme about the Meesterproef and what I did. 
+I must say that we did A LOT as a team, but ofcourse not everything.
+I will mark down my own vision and there will also be a second readme of the team.
+
+ENJOY!
+
+### Concepting
+In the first week, after the pitch, me and Emiel decided to work together for the Meesterproef. 
+We sat down and created three concepts. We came up with the concepts thanks to the mindmap we made.
+We pitched all of our idea's to our mentor Danny. It seemed like our concepts were pretty much the same,
+so after a talk we decided to work together.
+
+We did a lot of reasearch (which can be found in my process book) where we came up with a definite idea.
+We wanted to make a application where the user can fill in his/her information about the book he/she
+is trying to search.
+
+### Learning curves
+I also made a list of things I want to learn in the 5 weeks we have. 
+My lists is as follows:
+
+* I want to understand and implement ES6 into the project
+  - I have heard good stuff about ES6 and I want to learn how to use it.
+    I want to write code in ES6 for a more efficient way to programm.
+ 
+* I want to dive into build tools and implement this knowledge into the project.
+  - Build tools are made to make programming a little easier. There are a lot of buildtools and modules to choose from.
+    I want to do a little research in what the best build tool is for the project and I want to be the one to make
+    the code setup.
+ 
+* I want to expand my JavaScript knowledge in the Front End and write more JavScript
+  - In project its normally me who keeps the focus on CSS and CSS animations. Its what I'm good at and I find it a lot of fun to do.
+    JavaScript is pretty much my weak point and because of this I want to be working with using more Front end JavaScript.
+
+* I want to learn how to use GitHub in a team structure
+   - Github is something I'm not very used to. I really don't know how to use it. In this project I want to learn the git flow
+     and how to do pull and push requests. I also want to give out code reviews to my fellow teammates on GitHub.
+
+## Week 2
+
+## User story and User Scenario
+The second week started with making the user story and user scenario. We thought about how the user must experience the application and what the struggle would be from the user. After a little brainstorm we came up with a final user scenario and a final user story (this can be seen in my process book). 
+
+### Designs
+We all made a design to how we think the application must look like (designs
+can be found in my process book) and after we came together we looked at each others designs and decided on a final design. 
+We combined the strong visual interface from Victor with the smooth result page from Chana. Some elements from me and Emiel were taken
+into the final design as well.
+
+
+### Sorting the data
+Victor and me started looking into the data. We searched through the data and marked everything down (this can be seen in my process book). We saw that the OBA API data was pretty huge and we were happy to see that. We could ask good information from the users!
+
+### Code rules
+After collecting the data the whole team came together and we made some code rules. This was a little hard to do, because we didn't agree with each other. In the end we came up with the following list:
+
+* No ;
+* Each feature gets his own branch
+* Use ES6
+* A tab = 4 spaces
+* one ' 
+
+### Planning
+After the code rules me and Victor decided to focus on the setup for the planning (can be seen in my process book). 
+We thought about the ideal goals for each week to achieve. After we were done, we decided to call the team together and we finetuned
+the planning and hung it up on the wall as a reminder of good faith!
+
+### Moscow
+We used the M.O.S.C.O.W method to decide the most important (and not so important) part of the application. 
+With this in mind we can easily see on what our focus me be. 
+
+### Division of tasks
+We gave each other and ourselves the tasks to do for the commming week.
+My tasks were:
+
+* Researching and implementing JS Modules
+* Researching and maybe implement Webpack
+* Researching and use build tools
+
+### Build tools
+I focussed on the different uses of Build Tools and made a little research document of it [here](https://github.com/DesleyAalderink/weekly-nerd/blob/master/developer-tools.md)
+
+I decided on useing NPM Script for the basic build and use the following dependencies:
+
+* RollUPJS - for combining the different JS and CSS modules
+* DotENV - for the secret keys
+* eslint - for a strict use of JS check (everyone must follow the code rules)
+
+The basic code setup was written by me.
+
+## Week 3
+
+### Pitch Mark Vos
+Our coach and project giver Mark Vos has made his first appearance. 
+Me and the team came together to think about how we want to pitch and Emiel made the powerpoint.
+The pitch went great and Mark was excited to see how we would develop further.
+
+### Questions for the book
+The user must enter information in the book, but how?
+We decided on using 4 stages for the book: the front side, the back side, the inside and the side view.
+We took the data information from Victor and me and we puzzled the data together. This went rather smoothly.
+
+### Discussions
+There were some discussions in the team. When this happened we came together and talked it out (in a friendly way).
+Sometimes we needed to vote and sometimes we invited Suus and Max from the ADAM Link project to vote as well.
+Most of the discussion were between Victor and Emiel, but it was all friendly!
+
+### Detailpage
+When the user has found its book the user must be redirected to a detail page. I took this job. I started by making multiple designs.
+The design I eventually choose was the design with the book on the left and the data on the right. This was more like the OBA's style.
+The team liked the idea, but I needed to add a recommendation feature. I put this on the bottom, because I didn't think this was all
+to important.
+
+
+* (everything in the CSS between the "DETAIL PAGE" lines are written by me)[https://github.com/Boegle/Boegle/blob/develop/src/styles/style.css]
+
+
+## Week 4
+In week 4 we did the tests. The test were done with children from the Cartesius school. We tested on 3 boys and 2 girls. The tests were
+absolutely something we needed. We got a lot of new insights (more information in the teamreadme) and we had some stuff we needed to fix.
+
+## Scroll button
+One of the feedback points was that the kids didn't knew they could scroll down the detail page. Victor came up with the design for a scroll down button. I made this real in code. The scroll button is sticky'd to the floor, so it will always be displayed at the bottom in a bouncy animation when you first land on the page.
+
+## Zero State
+The "see location" model was something I made aswell as the zero state on the homepage. The model is a simple overlay where the users
+can find if the book is available in a OBA. The zero state consists of a first time greeting and explenation of what the application is. Victor also made it happen that it won't be there if you go a step back and you already filled in data. No need to see that if you already entered some data.
+
+* [bookZeroState.ejs](https://github.com/DesleyAalderink/Boegle/blob/develop/views/components/bookZeroState.ejs)
+
+## Just coding
+The buggfixes and the detail page self were done by me
+
+* [location.js](https://github.com/Boegle/Boegle/blob/develop/src/js/modules/location.js)
+
+* [detail.ejs](https://github.com/DesleyAalderink/Boegle/blob/develop/views/detail.ejs)
+
+* [bookLocation.ejs](https://github.com/DesleyAalderink/Boegle/blob/develop/views/components/bookLocation.ejs) - EJS help from Victor
+
+* [bookInformation.ejs](https://github.com/DesleyAalderink/Boegle/blob/develop/views/components/bookInformation.ejs) - Calling the data help from Victor
+
+* [bookRecommendation.ejs](https://github.com/DesleyAalderink/Boegle/blob/develop/views/components/bookRecommendation.ejs) - Calling the data help from Victor
+
+## Week 5
+The fifth week consisted of minor bugg fixes and making a video. 
+Emiel came up with the storyboard and he made sure to get us a studio.
+
+My job at the studio?
+Push Victor on a trolly so the camera will be smooth and the transisition will be more steady.
+
+# Working in a team - Boegle
 Amsterdam OBA | To search a book
 ![A demo of the OBA searchbook](readme_assets/application-introduction-v1.gif)
 

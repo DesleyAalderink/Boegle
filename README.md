@@ -144,6 +144,8 @@ The buggfixes and the detail page self were done by me
 
 * [bookRecommendation.ejs](https://github.com/DesleyAalderink/Boegle/blob/develop/views/components/bookRecommendation.ejs) - Calling the data help from Victor
 
+* [ZeroState.js](https://github.com/Boegle/Boegle/blob/develop/src/js/modules/zeroState.js) - with some help from Victor
+
 ## Week 5
 The fifth week consisted of minor bugg fixes and making a video. 
 Emiel came up with the storyboard and he made sure to get us a studio.
